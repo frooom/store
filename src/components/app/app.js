@@ -7,7 +7,7 @@ import './app.css';
 const App = () => {
     return (
         <main role='main' className='container'>
-            <ShopHeader numItems={5} total={210} />
+            <ShopHeader />
         <Routes>
             <Route
                 path='/'
@@ -22,4 +22,4 @@ const App = () => {
     )
 }
 
-export default App;
+export default App
